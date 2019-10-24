@@ -55,19 +55,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#ueber-uns">Über uns</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#unsere-leistungen" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Leistungen
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/google-ads">Google Ads</a>
-                                    <a class="dropdown-item" href="/sma">Social Network Ads</a>
-                                    <a class="dropdown-item" href="/webseiten">Webseiten</a>
-                                </div>
-                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#unsere-leistungen">Unsere Leistungen</a>
+                            </li>                            
                             <li class="nav-item">
                                 <a class="nav-link" href="#kontakt">Kontakt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#kontakt">Impressum</a>
                             </li>
                         </ul>
                     </div>

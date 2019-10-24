@@ -62,14 +62,18 @@
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+
+
 .contact--section--info .fas {
     color: #ffffff;
 }
 
 #kontakt {
+    position: relative;
     background: url('../img/bg__2.jpg')50% 50%,
         no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .form--container {}
@@ -180,6 +184,65 @@ body {
     bottom: 80px;
     height: 50px;
     width: 50px;
+}
+
+.ib-slide--1 {
+    display: block;
+    position: absolute;
+}
+
+.ib--2 {
+    display: block;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    height: 30px;
+    width: 30px;
+}
+
+.ib--3 {
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.ib--4 {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.ib--5 {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    height: 80px;
+    width: 80px;
+}
+
+.ib--6 {
+    display: block;
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    height: 80px;
+    width: 80px;
+}
+
+.ib--7 {
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 60%;
+    height: 60px;
+    width: 60px;
 }
 
 .ic--2 {
@@ -485,6 +548,9 @@ h2 {
     overflow: hidden;
 }
 
+.col--white {
+    color: #fff !important;
+}
 
 .services--section .card h4 {
     color: rgb(53, 52, 52);
@@ -555,4 +621,13 @@ h2 {
     border-width: 0 0 96px 196vh;
     border-color: rgba(90, 255, 13, 0) rgba(255, 3, 3, 0) rgba(5, 156, 245, 0) #ffffff;
     z-index: 9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    box-shadow: 1.25rem 1.375rem 2.75rem 0 rgba(0, 0, 0, .12);
+    border-bottom: 1px solid #ccc;
 }

@@ -1,7 +1,6 @@
 <?php 
 include ('includes/_header.php');
 ?>
-    <div class="clearfix"></div>
     <section class="hero--section">
         <img src="assets/img/el--1.png" class="slide--1 sc--1" alt="">
         <img src="assets/img/el--2.png" class="slide--1 sc--2" alt="">
@@ -38,9 +37,7 @@ include ('includes/_header.php');
                         Wir sind der Richtige <span class="st--1">Google Ads</span> Partner
                     </h1>
                     <hr class="hr-style-1">
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam odio vitae tempora
-                        totam modi? Ea dolore modi enim reiciendis a deserunt similique qui. Ex numquam optio obcaecati
-                        amet libero neque.</p>
+                    <p class="lead">Gerne besprechen wir Ihre Wünsche und Vorstellungen sodass  wir ein gemeinsames Ziel optimal und zeitnah erreichen können: mehr Anrufe, mehr Kunden, mehr Umsatz.</p>
                 </div>
             </div>
             <div class="row intro--section py-5">
@@ -96,14 +93,21 @@ include ('includes/_header.php');
         </div>
     </section>
     <section class="page--section" id="cta--section--1">
+        <img src="assets/img/ib--1.png" class="ib-slide--1 ib--1" alt="">
+        <img src="assets/img/ic--2.png" class="ib-slide--1 ib--2" alt="">
+        <img src="assets/img/ic--3.png" class="ib-slide--1 ib--3" alt="">        
+        <img src="assets/img/ic--4.png" class="ib-slide--1 ib--4" alt="">  
+        <img src="assets/img/ic--2.png" class="ib-slide--1 ib--5" alt="">    
+        <img src="assets/img/ib--2.png" class="ib-slide--1 ib--6" alt="">    
+        <img src="assets/img/ib--2.png" class="ib-slide--1 ib--7" alt="">                             
         <div class="container" id="ueber-uns">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="card  bg-white shadow--1 p-4">
+                    <div class="card bg-white shadow--1 p-4 wow fadeInUp">
                         <img src="assets/img/img__1.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 my-auto p-5">
+                <div class="col-lg-6 my-auto p-5 wow fadeInUp">
                     <h2>Über uns</h2>
                     <p>
                         <strong>Klick Media</strong> unterstützt Unternehmen bei Ihrer Kundenakquise und steigert Ihre
@@ -122,8 +126,11 @@ include ('includes/_header.php');
 
                 </div>
             </div>
-            <div class="row py-5">
-                <div class="col-lg-6 my-auto p-5">
+            <div class="row py-3">
+                <div class="col-lg-6 my-auto p-5 wow fadeInUp">
+                    <h4 class="col--white mb-4">
+                        Erweitern Sie Ihre Marketing-aktivtäten und erzeugen Sie mehr Umsatz
+                    </h4>
                     <p>
                         Um effektiv Kunden generieren zu können, ist es wichtig Ihre Zielgruppe genau zu kennen!
                         Hierbei unterstützen wir Sie gerne umfassend. Wir analysieren Ihre Zielgruppe und schalten Ihre
@@ -141,7 +148,7 @@ include ('includes/_header.php');
                         mehr Umsatz.
                     </p>
                 </div>
-                <div class="col-lg-6 text-center my-auto">
+                <div class="col-lg-6 text-center my-auto wow fadeInUp">
                     <div class="card bg-white shadow--1 p-4 pt-4">
                         <img src="assets/img/img__4.jpg" class="img-fluid" alt="">
                     </div>
@@ -152,13 +159,13 @@ include ('includes/_header.php');
     <section class="page--section services--section" id="unsere-leistungen">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center wow fadeInUp">
                     <p class="lead mb-0">Professionnel & Kompetent</p>
                     <h2>Unsere Leistungen</h2>
                 </div>
             </div>
             <div class="row py-5">
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInUp">
                     <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__5.jpg);">
                     <div class="overlay--shadow"></div>
                     <div class="card--inner--content">
@@ -170,7 +177,7 @@ include ('includes/_header.php');
                             </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInUp">
                     <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__6.jpg);">
                     <div class="overlay--shadow"></div>
                     <div class="card--inner--content">
@@ -180,7 +187,7 @@ include ('includes/_header.php');
                             </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 wow fadeInUp">
                     <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
                     <div class="overlay--shadow"></div>
                     <div class="card--inner--content">
@@ -195,6 +202,11 @@ include ('includes/_header.php');
         </div>
     </section>
     <section class="page--section contact--section" id="kontakt">
+        <img src="assets/img/ic--1.png" class="ic-slide--1 ic--1" alt="">
+        <img src="assets/img/ic--2.png" class="ic-slide--1 ic--2" alt="">
+        <img src="assets/img/ic--3.png" class="ic-slide--1 ic--3" alt="">        
+        <img src="assets/img/ic--4.png" class="ic-slide--1 ic--4" alt="">  
+        <img src="assets/img/ic--2.png" class="ic-slide--1 ic--5" alt="">    
         <div class="container">
 
             <div class="row">
@@ -202,7 +214,7 @@ include ('includes/_header.php');
                     <form method="post">
                         <div class="row">
                             <div class="col-lg-6 my-auto">
-                                <div class="contact--section--info">
+                                <div class="contact--section--info wow fadeInUp">
                                     <h2>Kontakt</h2>
                                     <p>
                                         Rufen Sie uns an oder schicken Sie uns eine E-Mail.
@@ -230,7 +242,7 @@ include ('includes/_header.php');
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6 form--container my-auto">
+                            <div class="col-md-6 form--container my-auto wow fadeInUp">
 
                                 <div class="form-group">
                                     <input type="text" name="txtName" class="form-control" placeholder="Name *"
@@ -268,7 +280,8 @@ include ('includes/_header.php');
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p>Alle Rechte Vorbehalten</p>
-
+                    <a href="#">Impressum</a>
+                    <a href="#">datenschutz</a>
                 </div>
             </div>
         </div>
@@ -290,73 +303,9 @@ include ('includes/_header.php');
     <script src="assets/js/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <script>
-        new WOW().init();
-        $('.jarallax').jarallax({
-            speed: 0.2
-        });
-        var timeout;
-        $('.hero--section').mousemove(function (e) {
-            if (timeout) clearTimeout(timeout);
-            setTimeout(callParallax.bind(null, e), 200);
 
-        });
-        $('.pg-1').mousemove(function (e) {
-            if (timeout) clearTimeout(timeout);
-            setTimeout(callParallax.bind(null, e), 200);
-
-        });        
-
-        function callParallax(e) {
-            parallaxIt(e, '.slide--1', -100);
-            parallaxIt(e, '.sc--2', -30);
-            parallaxIt(e, '.sc--3', -50);
-            parallaxIt(e, '.sc--4', -10);
-            parallaxIt(e, '.sc--5', -5);
-            parallaxIt(e, '.sc--6', -20);
-            parallaxIt(e, '.sc--7', 20);
-            parallaxItTwo(e, '.ic--1', -100);
-            parallaxItTwo(e, '.ic--2', 10);   
-            parallaxItTwo(e, '.ic--3', 40);         
-            parallaxItTwo(e, '.ic--4', -40);   
-            parallaxItTwo(e, '.ic--5', 140);                                       
-        }
-        function parallaxItTwo(e, target, movement) {
-            var $this = $('.pg-1');
-            var relX = e.pageX - $this.offset().left;
-            var relY = e.pageY - $this.offset().top;
-
-            TweenMax.to(target, 1, {
-                x: (relX - $this.width() / 2) / $this.width() * movement,
-                y: (relY - $this.height() / 2) / $this.height() * movement,
-                ease: Power2.easeOut
-            })
-        };
-        function parallaxIt(e, target, movement) {
-            var $this = $('.hero--section');
-            var relX = e.pageX - $this.offset().left;
-            var relY = e.pageY - $this.offset().top;
-
-            TweenMax.to(target, 1, {
-                x: (relX - $this.width() / 2) / $this.width() * movement,
-                y: (relY - $this.height() / 2) / $this.height() * movement,
-                ease: Power2.easeOut
-            })
-        };
-
-        /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function () {
-            var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("top--bar").style.top = "0";
-                document.getElementById("header--top").style.top = "43px";
-            } else {
-                document.getElementById("top--bar").style.top = "-50px";
-                document.getElementById("header--top").style.top = "0";
-            }
-            prevScrollpos = currentScrollPos;
-        }
     </script>
 </body>
 
