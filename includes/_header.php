@@ -5,7 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="keywords" content="google ads, seo, content marketing, online marketing, websites, ppc, search engine optimization, digital marketing, mobile developent, network" />
+    <meta name="description" content="Klick Media unterstützt Unternehmen bei Ihrer Kundenakquise und steigert Ihre Verkaufschancen im Onlinebereich.">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -25,6 +26,7 @@
         <div class="top--info--bar" id="top--bar">
             <div class="container">
                 <div class="row">
+
                     <div class="col-xs-12 col-lg-8 ml-auto text-right">
                         <ul class="top--contact--info">
                             <li><i class="fas fa-map-marked-alt"></i> <span>Adresse:</span> Muster Adresse 99, 99999 Ort

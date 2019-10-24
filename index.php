@@ -2,13 +2,13 @@
 include ('includes/_header.php');
 ?>
     <section class="hero--section">
-        <img src="assets/img/el--1.png" class="slide--1 sc--1" alt="">
-        <img src="assets/img/el--2.png" class="slide--1 sc--2" alt="">
-        <img src="assets/img/el--3.png" class="slide--1 sc--3" alt="">
-        <img src="assets/img/el--4.png" class="slide--1 sc--4" alt="">
-        <img src="assets/img/el--5.png" class="slide--1 sc--5" alt="">
-        <img src="assets/img/el--6.png" class="slide--1 sc--6" alt="">
-        <img src="assets/img/el--7.png" class="slide--1 sc--7" alt="">
+        <img src="assets/img/el--1.png" class="slide--1 sc--1" alt="Google Ads">
+        <img src="assets/img/el--2.png" class="slide--1 sc--2" alt="Google Ads">
+        <img src="assets/img/el--3.png" class="slide--1 sc--3" alt="Google Ads">
+        <img src="assets/img/el--4.png" class="slide--1 sc--4" alt="Google Ads">
+        <img src="assets/img/el--5.png" class="slide--1 sc--5" alt="Google Ads">
+        <img src="assets/img/el--6.png" class="slide--1 sc--6" alt="Google Ads">
+        <img src="assets/img/el--7.png" class="slide--1 sc--7" alt="Google Ads">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -17,8 +17,8 @@ include ('includes/_header.php');
                         verschiedenen
                         Onlinemarketing- und Werbediensten: Google Ads, Facebook Ads, Instagram Ads, Google Tag Manager,
                         Implementierung von Analyse und Tracking-Tags.</p>
-                    <a href="#" class="btn btn-default btn-primary btn-circle mr-3">Über uns</a>
-                    <a href="#" class="btn btn-default btn-primary btn-circle">Leistungen</a>
+                    <a href="#ueber-uns" class="btn btn-default btn-primary btn-circle mr-3">Über uns</a>
+                    <a href="#unsere-leistungen" class="btn btn-default btn-primary btn-circle">Leistungen</a>
                 </div>
             </div>
         </div>
@@ -187,17 +187,54 @@ include ('includes/_header.php');
                             </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow fadeInUp">
-                    <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
-                    <div class="overlay--shadow"></div>
-                    <div class="card--inner--content">
-                        <img src="assets/img/icon--6.png" class="img-fluid mx-auto mb-4" width="100" alt="">
-                        <h4 class="mb-4">Webseiten</h4>
-                        <p>Erstellung oder Bearbeitung von Webseiten sowie Erstellung und Optimierung von Landingpages für Werbekampagnen, Soziale Netzwerke oder lokale Aktivitäten für Geschäfte wie Flyer, Banner und jede Art von Grafik Design.
-</p>
-                            </div>
-                    </div>
-                </div>                
+                    <div class="col-lg-4 wow fadeInUp">
+                        <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
+                            <div class="overlay--shadow"></div>
+                                <div class="card--inner--content">
+                                    <img src="assets/img/icon--6.png" class="img-fluid mx-auto mb-4" width="100" alt="">
+                                    <h4 class="mb-4">Webseiten</h4>
+                                    <p>Erstellung oder Bearbeitung von Webseiten sowie Erstellung und Optimierung von Landingpages für Werbekampagnen, Soziale Netzwerke oder lokale Aktivitäten für Geschäfte wie Flyer, Banner und jede Art von Grafik Design.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-lg-4 wow fadeInUp">
+                        <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
+                            <div class="overlay--shadow"></div>
+                                <div class="card--inner--content">
+                                    <img src="assets/img/icon--6.png" class="img-fluid mx-auto mb-4" width="100" alt="">
+                                    <h4 class="mb-4">SEO</h4>
+                                    <p>Erstellung oder Bearbeitung von Webseiten sowie Erstellung und Optimierung von Landingpages für Werbekampagnen, Soziale Netzwerke oder lokale Aktivitäten für Geschäfte wie Flyer, Banner und jede Art von Grafik Design.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-lg-4 wow fadeInUp">
+                        <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
+                            <div class="overlay--shadow"></div>
+                                <div class="card--inner--content">
+                                    <img src="assets/img/icon--6.png" class="img-fluid mx-auto mb-4" width="100" alt="">
+                                    <h4 class="mb-4">Content Marketing</h4>
+                                    <p>Erstellung oder Bearbeitung von Webseiten sowie Erstellung und Optimierung von Landingpages für Werbekampagnen, Soziale Netzwerke oder lokale Aktivitäten für Geschäfte wie Flyer, Banner und jede Art von Grafik Design.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>  
+
+                    <div class="col-lg-4 wow fadeInUp">
+                        <div class="card text-center shadow--2 p-5" style="background-image: url(assets/img/img__7.jpg);">
+                            <div class="overlay--shadow"></div>
+                                <div class="card--inner--content">
+                                    <img src="assets/img/icon--6.png" class="img-fluid mx-auto mb-4" width="100" alt="">
+                                    <h4 class="mb-4">Conversion Rate Optimization</h4>
+                                    <p>Erstellung oder Bearbeitung von Webseiten sowie Erstellung und Optimierung von Landingpages für Werbekampagnen, Soziale Netzwerke oder lokale Aktivitäten für Geschäfte wie Flyer, Banner und jede Art von Grafik Design.
+                                    </p>
+                                </div>
+                        </div>
+                    </div>                                          
+
             </div>
         </div>
     </section>
