@@ -2,14 +2,16 @@
 include ('includes/_header.php');
 ?>
     <section class="hero--section">
-        <img src="assets/img/el--1.png" class="slide--1 sc--1" alt="Google Ads">
-        <img src="assets/img/el--2.png" class="slide--1 sc--2" alt="Google Ads">
-        <img src="assets/img/el--3.png" class="slide--1 sc--3" alt="Google Ads">
-        <img src="assets/img/el--4.png" class="slide--1 sc--4" alt="Google Ads">
-        <img src="assets/img/el--5.png" class="slide--1 sc--5" alt="Google Ads">
-        <img src="assets/img/el--6.png" class="slide--1 sc--6" alt="Google Ads">
-        <img src="assets/img/el--7.png" class="slide--1 sc--7" alt="Google Ads">
-        <div class="container">
+        <div class="img--container">
+            <img src="assets/img/el--1.png" class="slide--1 sc--1" alt="Google Ads">
+            <img src="assets/img/el--2.png" class="slide--1 sc--2" alt="Google Ads">
+            <img src="assets/img/el--3.png" class="slide--1 sc--3" alt="Google Ads">
+            <img src="assets/img/el--4.png" class="slide--1 sc--4" alt="Google Ads">
+            <img src="assets/img/el--5.png" class="slide--1 sc--5" alt="Google Ads">
+            <img src="assets/img/el--6.png" class="slide--1 sc--6" alt="Google Ads">
+            <img src="assets/img/el--7.png" class="slide--1 sc--7" alt="Google Ads">
+        </div>
+        <div class="container ff-cont">
             <div class="row">
                 <div class="col-lg-6">
                     <h2 class="mb-4">Klick-Media.de</h2>
@@ -85,7 +87,7 @@ include ('includes/_header.php');
                 </div>
                 <div class="col-lg-6 my-auto rel-pos">
                     <div data-jarallax-element="-100">
-                        <img src="assets/img/el--8.png" alt="">
+                        <img src="assets/img/el--8.png" class="img-fluid hide-mobile" alt="">
                     </div>
 
                 </div>
@@ -312,38 +314,6 @@ include ('includes/_header.php');
             </div>
         </div>
     </section>
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Alle Rechte Vorbehalten</p>
-                    <a href="#">Impressum</a>
-                    <a href="#">datenschutz</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="assets/js/jarallax.min.js"></script>
-    <script src="assets/js/jarallax-element.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script>
-
-    </script>
-</body>
-
-</html>
+<?php 
+include ('includes/_footer.php');
+?>

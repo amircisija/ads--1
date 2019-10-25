@@ -1,3 +1,10 @@
+<?php
+$host  = $_SERVER['HTTP_HOST'];
+$host_upper = strtoupper($host);
+$path   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+$baseurl = "http://" . $host . $path . "/";
+?>
+
 <!doctype html>
 <html lang="de">
 
@@ -48,23 +55,22 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Startseite <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="<?php echo $baseurl; ?>index.php">Startseite <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#ueber-uns">Über uns</a>
+                                <a class="nav-link" href="<?php echo $baseurl; ?>index.php#ueber-uns">Über uns</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#unsere-leistungen">Unsere Leistungen</a>
+                                <a class="nav-link" href="<?php echo $baseurl; ?>index.php#unsere-leistungen">Unsere Leistungen</a>
                             </li>                            
                             <li class="nav-item">
-                                <a class="nav-link" href="#kontakt">Kontakt</a>
+                                <a class="nav-link" href="<?php echo $baseurl; ?>index.php#kontakt">Kontakt</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#kontakt">Impressum</a>
+                                <a class="nav-link" href="<?php echo $baseurl; ?>impressum">Impressum</a>
                             </li>
                         </ul>
                     </div>
